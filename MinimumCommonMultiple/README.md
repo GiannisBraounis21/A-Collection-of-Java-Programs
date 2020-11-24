@@ -1,7 +1,7 @@
 ### Minimum Common Multiple
 An application that computes the least common multiple of 2 numbers.
 
-### What I have learned.
+### What have I learned.
 - Import packages
 - Use Scanner to read data from the user
 - Print data to the screen
