@@ -8,3 +8,4 @@ An application that computes the delivery costs of a package.
 - How @Override works and when I should use it.
 - How Polymorphism works.
 - Call a subclass method using superclass reference with dynamic dispatch.
+- getClass()/instance of
