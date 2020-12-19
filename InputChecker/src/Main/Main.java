@@ -16,7 +16,8 @@ public class Main
         {
             try
             {
-                total = input.nextInt(); 
+                total = input.nextInt();
+                break;
             }
             catch(InputMismatchException e)
             {
@@ -24,8 +25,6 @@ public class Main
                 System.err.println("Not a integer number");
                 input.nextLine();
             }
-            if(total!=0)
-                break;
         }
         double array [] = null;
         try
@@ -53,6 +52,7 @@ public class Main
                 System.out.println("Ποιο στοιχειο του πινακα θες να εκτυπωσεις?");
                 index = input.nextInt();
                 System.out.println("Array element" + index + ": " + array[index]);
+                counter++;
 
             }
             catch(InputMismatchException e)
@@ -65,10 +65,6 @@ public class Main
                 System.err.println("Array index out of bounds");
             }
             input.nextLine();
-            if(index>=0 && index<array.length)
-            {
-                counter++;
-            }
         }
         System.out.println("Εxit");
     }
