@@ -34,13 +34,12 @@ public class main
                     grd = input.nextInt();
                     input.nextLine();
                     x.setGrade(grd);
+                    break;
                 }
                 catch(GradeException e )
                 {
                     System.err.println(e.getMessage());
-                }
-                if(grd>=0 && grd<=100)
-                    break;
+                } 
             }
         }
         for(Student x : stud)
